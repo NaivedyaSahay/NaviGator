@@ -1,6 +1,12 @@
 body{
   font-family: "Plus Jakarta Sans", sans-serif !important;
   font-optical-sizing: auto !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container{
+    flex: 1;
 }
 .fa-compass{
     color: #fe424d;
@@ -67,4 +73,28 @@ text-decoration: underline;
 .card-img-overlay:hover{
     opacity: 0.2;
     background-color: white;
+}
+
+/* New Page */
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* Edit page */
+.edt-btn{ 
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* Show Image */
+.show-image{
+height:30vh;
+}
+.btns{
+    display: flex;
+}
+.show-card{
+    padding-left: 0;
+    padding-right:0;
 }
